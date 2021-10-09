@@ -52,7 +52,7 @@ const Navbar = () => {
           <div className={classes.root}>
             <AppBar position="static" color="primary">
                 <Toolbar>
-                    <Typography variant="h1" className={classes.title}>
+                    <Typography variant="h5" className={classes.title}>
                         <Link className={classes.linkStyle} to="/">
                         toDoApp
                         </Link>
