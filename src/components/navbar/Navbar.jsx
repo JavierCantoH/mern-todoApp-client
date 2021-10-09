@@ -52,9 +52,9 @@ const Navbar = () => {
           <div className={classes.root}>
             <AppBar position="static" color="primary">
                 <Toolbar>
-                    <Typography variant="h4" className={classes.title}>
+                    <Typography variant="h1" className={classes.title}>
                         <Link className={classes.linkStyle} to="/">
-                        toDoApp;
+                        toDoApp
                         </Link>
                     </Typography>
                     <>
@@ -62,7 +62,7 @@ const Navbar = () => {
                             (
                                 <>
                                     <Typography variant="subtitle2" className={classes.title}>
-                                        Logged in as {auth.name}
+                                        Hi {auth.name}
                                     </Typography>
                                     <Button
                                         edge="end"
