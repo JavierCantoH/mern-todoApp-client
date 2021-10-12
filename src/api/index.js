@@ -1,7 +1,7 @@
 // hit our backend api
 
 // url testing
-// export const url = "http://localhost:5000/api";
+//export const url = "http://localhost:5000/api";
 // url when backend has been published, dont forget about the api at the end
 export const url = "https://mean-stack-todo-app.herokuapp.com/api";
 

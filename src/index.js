@@ -6,7 +6,7 @@ import { createStore, applyMiddleware } from 'redux';
 // redux middleware
 import thunk from 'redux-thunk';
 // import root reducer
-import rootReducer from './store/reducers/rootReducer'
+import rootReducer from './redux/reducers/rootReducer'
 // for using the redux store inside a react app
 import { Provider } from 'react-redux';
 

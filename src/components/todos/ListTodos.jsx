@@ -9,7 +9,7 @@ import Todo from "./Todo";
 // dispatch: redux hook, useSelector: redux hook for enebale us to select a piece of state from the redux store
 import { useDispatch, useSelector } from 'react-redux';
 // import action creators
-import { getTodos } from '../../store/actions/todoActions';
+import { getTodos } from '../../redux/actions/todoActions';
 
 
 // using makeStyles

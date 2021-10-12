@@ -8,7 +8,7 @@ import { Send } from '@material-ui/icons';
 // dispatch: redux hook
 import { useDispatch } from 'react-redux';
 // import action creators
-import { addTodo, updateTodo } from '../../store/actions/todoActions';
+import { addTodo, updateTodo } from '../../redux/actions/todoActions';
 
 // using makeStyles
 const useStyles = makeStyles({

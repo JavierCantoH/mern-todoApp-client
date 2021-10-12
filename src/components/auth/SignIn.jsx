@@ -5,7 +5,7 @@ import { makeStyles } from "@material-ui/core/styles";
 // redux hooks
 import { useDispatch, useSelector } from 'react-redux';
 // import action creators
-import { signIn } from '../../store/actions/authActions';
+import { signIn } from '../../redux/actions/authActions';
 // for redirect user when sign up
 import { Redirect } from "react-router-dom";
 

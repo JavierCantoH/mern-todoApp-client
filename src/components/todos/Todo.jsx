@@ -10,7 +10,7 @@ import moment from "moment";
 // dispatch: redux hook
 import { useDispatch } from 'react-redux';
 // import action creators
-import { checkTodo, deleteTodo } from '../../store/actions/todoActions';
+import { checkTodo, deleteTodo } from '../../redux/actions/todoActions';
 
 // using makeStyles
 const useStyles = makeStyles({

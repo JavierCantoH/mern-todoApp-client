@@ -18,7 +18,7 @@ import "react-toastify/dist/ReactToastify.css";
 // redux hooks
 import { useDispatch } from 'react-redux';
 // import action creators
-import { loadUser } from './store/actions/authActions';
+import { loadUser } from './redux/actions/authActions';
 
 // material ui styles
 const useStyles = makeStyles({
@@ -40,7 +40,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <ToastContainer/>
+        <ToastContainer/>
         <Container maxWidth = "md">
           <NavBar />
           <Container className={classes.contentStyle} maxWidth = "sm">
