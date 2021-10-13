@@ -40,7 +40,7 @@ const ListTodos = ({ setTodo }) => {
             <div className={classes.todosStyle}>
                 <Typography variant="h5">
                     {/* if statement to check the existance fo todos */}
-                    {todos.length > 0 ? "theTodos;" : "noTodosYet;"}
+                    {todos.length > 0 ? "Your todos:" : "No todos yet"}
                 </Typography>
                 {/* if there exist todos, we map the array of todos */}
                 { todos && todos.map((todo) => {
